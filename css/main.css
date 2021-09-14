@@ -41,6 +41,7 @@ main {
 .menu_buttons {
     padding: 15px 40px;
 }
+
 .button {
     font-weight: bolder;
     font-size: 12px;
@@ -58,4 +59,33 @@ main {
 #Add_Section {
     border-color: lightgray;
     color: lightgray;
+}
+
+/* TASKS */
+.tasks {
+    border-top: 2px solid #f6f6f6;
+}
+.task_list {
+    padding: 25px 35px;
+}
+
+.task_description {
+    padding: 10px 5px;
+    font-size: 14px;
+}
+
+.checkmarker {
+    color: green;
+    border-radius: 50%;
+    border: 1px solid green;
+    padding: 2px 4px;
+}
+
+.editorial {
+    background-color: #319fe3;
+    padding: 7px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
 }
