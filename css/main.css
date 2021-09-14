@@ -51,9 +51,9 @@ main {
 }
 
 #Add_Task {
-    background-color: lightskyblue;
+    background-color: #319fe3;
     color: white;
-    border-color: lightskyblue;
+    border-color: #319fe3;
 }
 
 #Add_Section {
@@ -74,12 +74,7 @@ main {
     font-size: 14px;
 }
 
-.marker {
-    border-radius: 50%;
-    border: 1px solid;
-    padding: 1px 4px;
-}
-
+/* LABEL */
 .label {
     padding: 7px 10px;
     border-radius: 10px;
@@ -88,23 +83,40 @@ main {
     color: white;
 }
 
+/* LABEL COLORS */
 .editorial {
     background-color: #319fe3;
 }
 
 .Q1 {
-    background-color: purple;
+    background-color: #aa4faa;
 
 }
 
 .recruiting {
-    background-color: green;
+    background-color: #54bb54;
 }
 
 .mobile {
     background-color: orange;
 }
 
+.website {
+    background-color: #ff84ec;
+}
+
+.sales {
+    background: rgb(181, 219, 100);
+}
+
+/* MARKER */
+.marker {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 1px 4px;
+}
+
+/* MARKER COLORS */
 .check {
     color: green;
     border-color: green;
