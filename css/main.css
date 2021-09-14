@@ -74,18 +74,44 @@ main {
     font-size: 14px;
 }
 
-.checkmarker {
-    color: green;
+.marker {
     border-radius: 50%;
-    border: 1px solid green;
-    padding: 2px 4px;
+    border: 1px solid;
+    padding: 1px 4px;
+}
+
+.label {
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
 }
 
 .editorial {
     background-color: #319fe3;
-    padding: 7px 10px;
-    border-radius: 10px;
-    color: white;
-    font-size: 10px;
-    font-weight: bold;
+}
+
+.Q1 {
+    background-color: purple;
+
+}
+
+.recruiting {
+    background-color: green;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.check {
+    color: green;
+    border-color: green;
+}
+.delete {
+    color: red;
+    border-color: red;
+    font-size: 9px;
+    padding: 4px 5px;
 }
