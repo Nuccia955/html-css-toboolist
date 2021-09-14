@@ -50,13 +50,13 @@ main {
     border: 2px solid;
 }
 
-#Add_Task {
+#add_task {
     background-color: #319fe3;
     color: white;
     border-color: #319fe3;
 }
 
-#Add_Section {
+#add_section {
     border-color: lightgray;
     color: lightgray;
 }
@@ -67,6 +67,7 @@ main {
 }
 .task_list {
     padding: 25px 35px;
+    list-style-type: none;
 }
 
 .task_description {
